@@ -4,6 +4,7 @@ function isPalindrome(str, start, end) {
 
     return isPalindrome(str, start + 1, end - 1)
 }
+
 const str = 'malayalam';
-const cleanedStr = str.replace(/[^a-zA-Z0-9]/g, '').toLocaleLowerCase();
-console.log(isPalindrome(str, 0, cleanedStr.length - 1));;
+const cleanedStr = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+console.log(isPalindrome(cleanedStr, 0, cleanedStr.length - 1));;

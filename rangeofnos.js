@@ -6,6 +6,9 @@
 // }
 // console.log(rangeOfNumbers(1,6));
 
+
+// Create an array within the range of two given numbers.
+
 function rangeOfNumbers(startNum, endNum) {
     if (startNum > endNum) return [];
 
